@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 /* general style rules */
 body {
     font-family: 'Poppins', sans-serif;
@@ -12,6 +13,7 @@ body {
     background-color:  white;
     color: black;
 }
+
 /* social media connections*/
 .connections {
     color: black;
@@ -20,18 +22,21 @@ body {
     font-size: 16px;
     text-decoration: none;
 }
+
 .fab {
     color: black;
     font-size: 30px;
     float: right;
     margin-right: 15px;
 }
+
 .connections .mail {
     color: black;
     text-decoration: underline;
 }
+
 /* display picture styling */
-.content img {
+.content-image{
     display: block;
     height: 175px;
     width: 175px;
@@ -41,7 +46,8 @@ body {
     align-content: center;
     margin: 0 auto;
 }
- /* styling the text  */
+
+/* styling the text  */
 .content {
     padding: 10px 50px;
     color: black;
@@ -50,12 +56,14 @@ body {
     align-content: center;
     margin: 0 auto;
 }
+
 .content h1 {
     padding-top: 20px;
     margin: 0;
     font-size: 24px;
     text-align: center;
 }
+
 .content h5 {
     color: grey;
     padding-top: 5px;
@@ -63,44 +71,75 @@ body {
     font-size: 18px;
     text-align: center;
 }
+
 .content p  {
     padding: 8px 70px;
     text-align: justify;
     font-size: 16px;
-} 
- /* skillset  */
+}
+
+/* skillset  */
  .skills {
-    /* padding: 3px 30px; */
     padding: 15px 30px;
     margin: 15px 30px;
     text-align: justify;
     font-size: 16px;
- }
- .skills ul {
+}
+
+.skills ul {
     list-style: none;  
- }
- .skills li {
+    display: flex;
+    justify-content: space-around;
+}
+
+.skills li {
     display: inline-block;
     padding: 10px 15px;
     margin-right: 10px;
     border-radius: 7px;
     background-color: aqua;
 }
+
 .skills ul :hover {
     border: 1px solid aquamarine;
 }
+
 /* links */
 .link {
     padding-top: 15px; 
     margin: 0 auto;  
     text-align: center;
 }
+
 .link a {
     text-decoration: underline;
     padding: 10px 15px;
     color: black;
 }
 
+.buttons{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.buttons > button{
+    margin-right: 1rem;
+    cursor: pointer;
+    border: none;
+    padding: .8rem;
+    background-color: rgb(93, 234, 234);
+    color: black;
+    width: 8rem;
+    height: auto;
+    transition: all .3s ease-in-out;
+}
+
+.buttons > button:hover{
+    transform: translateY(-.5rem);
+    box-shadow: 0px 2px 15px rgba(60, 60, 60, 0.655);
+}
 
 
 /* responsive web design */
@@ -112,11 +151,13 @@ body {
         font-size: 14px;
         text-decoration: none;
     }
+
     .fab {
         font-size: 25px;
         float: right;
         margin-right: 6px;
     }
+
     /* display picture styling */
     .content img {
     display: block;
@@ -128,6 +169,7 @@ body {
     align-content: center;
     margin: 0 auto;
     }
+
     /* styling the text  */
     .content {
     padding: 10px 20px;
@@ -135,48 +177,57 @@ body {
     align-content: center;
     margin: 0 auto;
     }
+
     .content h1 {
         padding-top: 20px;
         margin: 0;
         font-size: 24px;
         text-align: center;
     }
+
     .content h5 {
     padding-top: 5px;
     margin: 0;
     font-size: 18px;
     text-align: center;
     }
+    
     .content p  {
         padding: 8px 30px;
         text-align: justify;
         font-size: 16px;
-    } 
+    }
+
     /* skillset  */
     .skills {
         padding: 3px 15px;
         text-align: justify;
         font-size: 14px;
-     }
-     .skills ul {
+    }
+
+    .skills ul {
         list-style: none;
 
-     }
-     .skills li {
+    }
+
+    .skills li {
         display: inline-block;
         padding: 10px 15px;
         margin: 5px 2px;
         border-radius: 7px;
     }
+
     .skills ul :hover {
         border: 1px solid aquamarine;
     }
+    
     /* links */
     .link {
         padding-top: 15px; 
         margin: 0 auto;  
         text-align: center;
     }
+
     .link a {
         text-decoration: underline;
         padding: 10px 5px;
