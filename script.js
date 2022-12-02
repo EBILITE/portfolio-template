@@ -19,16 +19,16 @@ const profiles = [
     },
     {
         name: "Edozie Onyeanusi", 
-        nickname: "Edozie", 
+        nickname: "Yeagerist", 
         description: "nunc sit amet interdum lacinia. Curabitur ultricies dolor nibh, eget pulvinar ex efficitur sed. Curabitur et luctus risus. Vestibulum tincidunt luctus arcu, ac congue", 
-        image: "./assets/screenshot.png", 
-        technologies: ['Web Dev', 'UI/UX Designs', 'Community Management']},
+        image: "./assets/olga-anton.webp", 
+        technologies: ['Web Dev', 'UI/UX Design', 'Community Management']},
     {
-        name: "Tochi Agbo", 
-        nickname: "To-Baby", 
+        name: "Olga Anton", 
+        nickname: "Ace Scribe", 
         description: "nunc sit amet interdum lacinia. Curabitur et luctus risus. Vestibulum tincidunt luctus arcu, ac congue", 
-        image: "./assets/screenshot.png", 
-        technologies: ['UX Writing', 'Web Dev', ]},
+        image: "./assets/olga-anton.webp", 
+        technologies: ['UX Writing', 'Web Dev', 'Product Design']},
     {
         name: "Antony Elanga", 
         nickname: "Anton", 
